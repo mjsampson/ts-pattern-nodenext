@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "nodenext",
+    "declaration": true,
+    "target": "esnext",
+    "strict": true,
+    "outDir": "dist/",
+    "rootDir": "src"
+  },
+  "include": ["src/"],
+  "exclude": ["tests/", "dist/", "examples/"]
+}
