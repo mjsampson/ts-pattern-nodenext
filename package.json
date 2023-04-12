@@ -20,7 +20,8 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "check": "tsc --strict --noEmit --extendedDiagnostics"
+    "check": "tsc --strict --noEmit --extendedDiagnostics",
+    "prepare": "npm run build"
   },
   "files": [
     "dist/**/*"
